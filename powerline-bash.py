@@ -411,7 +411,7 @@ if __name__ == '__main__':
     add_virtual_env_segment(p, cwd)
     #p.append(Segment(p, ' \\u ', 250, 240))
     #p.append(Segment(p, ' \\h ', 250, 238))
-    add_cwd_segment(p, cwd, 4, args.cwd_only)
+    add_cwd_segment(p, cwd, 6, args.cwd_only)
     
     add_time_segment(p, cwd)
     if len(args.extra)>0:
